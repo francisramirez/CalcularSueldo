@@ -4,6 +4,6 @@ using CalcularSueldo.Class;
 
 Calcular calcular = new Calcular();
 
-calcular.CalcularSueldo();
+calcular.CalcularMayorNumero();
 
-calcular.CalcularProductoSuma();
+//calcular.CalcularProductoSuma();
