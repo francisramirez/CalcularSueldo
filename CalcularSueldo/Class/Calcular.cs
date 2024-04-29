@@ -69,15 +69,23 @@
                 Console.WriteLine("Digite el num 2: ");
                 num2 = Convert.ToInt32(Console.ReadLine());
 
-
                 if (num1 > num2)
                 {
-                    Console.WriteLine($"El num 1: { num1 } es mayor");
+                    if (true)
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
+                    Console.WriteLine($"El num 1: {num1} es mayor");
                 }
                 else
                 {
-                    Console.WriteLine($"El num 2: { num2 } es mayor");
+                    Console.WriteLine($"El num 2: {num2} es mayor");
                 }
+
 
             }
             catch (Exception ex)
@@ -86,6 +94,8 @@
                 Console.WriteLine($"Error validando cual es mayor. { ex.Message }");
             }
 
+
+          
         }
     }
 }
